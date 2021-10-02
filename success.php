@@ -13,7 +13,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />
         <title> Store</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
