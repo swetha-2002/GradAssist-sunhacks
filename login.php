@@ -9,8 +9,12 @@
         <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />
         <title>GradAssist</title>
 
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />
+        <title>GradAssist</title>
+
         <link rel="shortcut icon" href="img/lifestyleStore.png" />
         <title>GradAssit</title>
+
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +42,7 @@
                             </div>
                             <div class="panel-body">
                                 <p>Login to make a purchase.</p>
-                                <form method="post" action="login_submit.php">
+                                <form method="post" action="login_submit.html">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                                     </div>
@@ -50,7 +54,7 @@
                                     </div>
                                 </form>
                             </div>
-                            <div class="panel-footer">Don't have an account yet? <a href="signup.php">Register</a></div>
+                            <div class="panel-footer">Don't have an account yet? <a href="signup.html">Register</a></div>
                         </div>
                     </div>
                 </div>
