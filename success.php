@@ -14,7 +14,7 @@
 <html>
     <head>
         <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />
-        <title> Store</title>
+        <title> GradAssist</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -38,7 +38,7 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading"></div>
                             <div class="panel-body">
-                                <p>Your order is confirmed. Thank you for shopping with us. <a href="products.php">Click here</a> to purchase any other item.</p>
+                                <p>The End <a href="products.php">Click here</a> to go back to main page.</p>
                             </div>
                         </div>
                     </div>
