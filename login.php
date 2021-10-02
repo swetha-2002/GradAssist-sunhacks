@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />
         <title>GradAssit</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
                                 <h3>LOGIN</h3>
                             </div>
                             <div class="panel-body">
-                                <p>Login to make a purchase.</p>
+                                <p>Login.</p>
                                 <form method="post" action="login_submit.php">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
