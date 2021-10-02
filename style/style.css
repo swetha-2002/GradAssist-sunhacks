@@ -1,14 +1,18 @@
 body {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     font-family: sans-serif;
     text-align: center;
 }
 
 h1{
+    font-family: Poppins;
     align-items:centre;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+h2{
+    padding-top:5%;
 }
 
 
@@ -27,8 +31,6 @@ h1{
     line-height:1.5;
     font-weight:bold;
 }
-
-
 
 
 /* Navigation Bar */
@@ -94,6 +96,10 @@ top:auto;
 
 
 /* Experts */
+
+.exp-img {
+    padding-top: 5%;
+}
 .expert-box {
     border:solid 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
