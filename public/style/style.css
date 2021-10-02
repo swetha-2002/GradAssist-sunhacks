@@ -1,5 +1,5 @@
 body {
-    background-color: #F0E5CF;
+    background-color: #fff;
     margin-left: 120px;
     margin-right: 120px;
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +34,7 @@ h2{
 /* Navigation Bar */
 
 .navbar {
-    background-color: #4B6587;
+    background-color: #fff;
 }
 
 #title {
