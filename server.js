@@ -17,7 +17,17 @@ io.on('connection', socket => {
     socket.emit('message', 'Welcome to GradAssist');
 
     //Brodcast when a user connects
-    socket.brodcast.emit();
+    socket.emit('message', 'A user has joined the chat');
+
+    //Runs when client disconnects
+    socket.on('disconnect', ()=> {
+        io.emit('message', 'A user has left the chat')
+    });
+
+    //Listen for chatMessage
+    socket.on('chatMessage', () => {
+        io.emit('message', msg);
+    })
 });
 
 const PORT = 3000 || process.env.PORT;
