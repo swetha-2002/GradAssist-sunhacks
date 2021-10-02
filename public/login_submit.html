@@ -6,14 +6,14 @@
     if(!preg_match($regex_email,$email)){
         echo "Incorrect email. Redirecting you back to login page...";
         ?>
-        <meta http-equiv="refresh" content="2;url=login.php" />
+        <meta http-equiv="refresh" content="2;url=login.html" />
         <?php
     }
     $password=md5(md5(mysqli_real_escape_string($con,$_POST['password'])));
     if(strlen($password)<6){
         echo "Password should have atleast 6 characters. Redirecting you back to login page...";
         ?>
-        <meta http-equiv="refresh" content="2;url=login.php" />
+        <meta http-equiv="refresh" content="2;url=login.html" />
         <?php
     }
     $user_authentication_query="select id,email from users where email='$email' and password='$password'";
@@ -26,7 +26,7 @@
         <script>
             window.alert("Wrong username or password");
         </script>
-        <meta http-equiv="refresh" content="1;url=login.php" />
+        <meta http-equiv="refresh" content="1;url=login.html" />
         <?php
         //header('location: login');
         //echo "Wrong email or password.";
@@ -34,7 +34,7 @@
         $row=mysqli_fetch_array($user_authentication_result);
         $_SESSION['email']=$email;
         $_SESSION['id']=$row['id'];  //user id
-        header('location: products.php');
+        header('location: index.html');
     }
-    
+
  ?>

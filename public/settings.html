@@ -2,14 +2,14 @@
     session_start();
     require 'connection.php';
     if(!isset($_SESSION['email'])){
-        header('location:index.php');
+        header('location:index.html');
     }
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Store</title>
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />  
+        <title>GradAssist</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -24,14 +24,14 @@
     <body>
         <div>
             <?php
-                require 'header.php';
+                require 'header.html';
             ?>
             <br>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-4 col-xs-offset-4">
                         <h1>Change Password</h1>
-                        <form method="post" action="setting_script.php">
+                        <form method="post" action="setting_script.html">
                             <div class="form-group">
                                 <input type="password" class="form-control" name="oldPassword" placeholder="Old Password">
                             </div>
@@ -51,7 +51,7 @@
             <br><br><br><br><br>
            <footer class="footer">
                <div class="container">
-               <center> 
+               <center>
                </center>
                </div>
            </footer>

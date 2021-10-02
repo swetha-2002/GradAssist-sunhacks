@@ -1,13 +1,20 @@
 <?php
     session_start();
-    session_unset();
-    session_destroy();
+    require 'connection.php';
+    if(!isset($_SESSION['email'])){
+        header('location:index.html');
+    }else{
+        $user_id=$_GET['id'];
+        $confirm_query="update users_items set status='Confirmed' where user_id=$user_id";
+        $confirm_query_result=mysqli_query($con,$confirm_query) or die(mysqli_error($con));
+        
+    }
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Store</title>
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4k7-QLrhQmL6CSCvBmU552G1SQHVFthGvRA&usqp=CAU" />
+        <title> GradAssist</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -22,7 +29,7 @@
     <body>
         <div>
             <?php
-                require 'header.php';
+                require 'header.html';
             ?>
             <br>
             <div class="container">
@@ -31,7 +38,7 @@
                         <div class="panel panel-primary">
                             <div class="panel-heading"></div>
                             <div class="panel-body">
-                                <p>You have been logged out. <a href="login.php">Login again.</a></p>
+                                <p>Your chat is closed. <a href="index.html">Click here</a> to go back to main page.</p>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,169 @@
+body {
+    background-color: #fff;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1{
+    
+    align-items:centre;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2{
+    padding-top:5%;
+}
+
+/* Heading */
+
+.heading-text{
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size:3rem;
+    line-height:1.5;
+    font-weight:bold;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #fff;
+}
+
+#title {
+    
+    text-align:left;
+    color: #000;
+}
+
+/* .navbar {
+    
+} */
+
+.navbar-brand {
+    color:#000;
+    font-family: "Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+.nav-link {
+    font-size:1.2rem;
+    font-family: "Montserrat";
+}
+
+
+/* Title Image */
+
+.title-img {
+    float: left;
+width: 450px;
+height: 450px;
+top:auto;
+
+   
+}
+
+/* Chat Box */
+
+
+.chat-img{
+    float: left;
+    height:400px;
+    width:400px;
+}
+
+.display-text{
+    margin:98px auto 98px auto;
+    text-align: left;
+    line-height:2;
+}
+
+
+/* Experts */
+
+.exp-img {
+    padding-top: 5%;
+}
+.expert-box {
+    border:solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius:3%;
+    padding-bottom: 8px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 21;
+    -moz-border-radius: 21;
+    border-radius: 21px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  /* Text */
+
+  .table-text{
+      text-align: center;
+      font-weight: bold;
+  }
+
+  /* Images */
+
+  .table-img{
+      height:440px;
+      width:440px;
+  }
+
+
+/* Footer 2 */
+
+#footer2 {
+    background-color: #F0E5CF;
+    padding:7% 15%;
+}
+.footer-icon {
+    margin:20px 10px;
+    color:#000;
+}
+
+@media (max-width: 1000px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        transform:rotate(0);
+    }
+}
+
