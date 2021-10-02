@@ -17,7 +17,7 @@
         $update_password_result=mysqli_query($con,$update_password_query) or die(mysqli_error($con));
         echo "Your password has been updated.";
         ?>
-        <meta http-equiv="refresh" content="3;url=products.php" />
+        <meta http-equiv="refresh" content="3;url=index.php" />
         <?php
     }else{
         ?>
