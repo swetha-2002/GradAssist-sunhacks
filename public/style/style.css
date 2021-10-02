@@ -1,5 +1,5 @@
 body {
-    background-color: #F0E5CF;
+    background-color: #fffF;
     margin-left: 120px;
     margin-right: 120px;
     font-family: 'Montserrat', sans-serif;
@@ -14,6 +14,9 @@ h1{
 }
 h2{
     padding-top:5%;
+}
+h3{
+    font-size:1.5rem;
 }
 
 /* Heading */
@@ -33,9 +36,7 @@ h2{
 
 /* Navigation Bar */
 
-.navbar {
-    background-color: #4B6587;
-}
+
 
 #title {
     
@@ -105,6 +106,11 @@ top:auto;
     padding-bottom: 8px;
 }
 
+.exp-text {
+    color: #8f8f8f;
+    font-size:0.8rem;
+}
+
 .btn {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -150,7 +156,7 @@ top:auto;
 /* Footer 2 */
 
 #footer2 {
-    background-color: #F0E5CF;
+    background-color: #fff;
     padding:7% 15%;
 }
 .footer-icon {
