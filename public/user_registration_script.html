@@ -7,14 +7,14 @@
     if(!preg_match($regex_email,$email)){
         echo "Incorrect email. Redirecting you back to registration page...";
         ?>
-        <meta http-equiv="refresh" content="2;url=signup.php" />
+        <meta http-equiv="refresh" content="2;url=signup.html" />
         <?php
     }
     $password=md5(md5(mysqli_real_escape_string($con,$_POST['password'])));
     if(strlen($password)<6){
         echo "Password should have atleast 6 characters. Redirecting you back to registration page...";
         ?>
-        <meta http-equiv="refresh" content="2;url=signup.php" />
+        <meta http-equiv="refresh" content="2;url=signup.html" />
         <?php
     }
     $contact=$_POST['contact'];
@@ -25,12 +25,12 @@
     $rows_fetched=mysqli_num_rows($duplicate_user_result);
     if($rows_fetched>0){
         //duplicate registration
-        //header('location: signup.php');
+        //header('location: signup.html');
         ?>
         <script>
             window.alert("Email already exists in our database!");
         </script>
-        <meta http-equiv="refresh" content="1;url=signup.php" />
+        <meta http-equiv="refresh" content="1;url=signup.html" />
         <?php
     }else{
         $user_registration_query="insert into users(name,email,password,contact,city,address) values ('$name','$email','$password','$contact','$city','$address')";
@@ -40,9 +40,9 @@
         $_SESSION['email']=$email;
         //The mysqli_insert_id() function returns the id (generated with AUTO_INCREMENT) used in the last query.
         $_SESSION['id']=mysqli_insert_id($con); 
-        //header('location: products.php');  //for redirecting
+        //header('location: index.html');  //for redirecting
         ?>
-        <meta http-equiv="refresh" content="3;url=products.php" />
+        <meta http-equiv="refresh" content="3;url=index.html" />
         <?php
     }
     
