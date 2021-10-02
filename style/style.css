@@ -1,4 +1,6 @@
 body {
+    margin-left: 20px;
+    margin-right: 20px;
     font-family: sans-serif;
     text-align: center;
 }
@@ -42,9 +44,9 @@ p {
     color: #000;
 }
 
-.navbar {
-    padding: 0 0 4rem;
-}
+/* .navbar {
+    
+} */
 
 .navbar-brand {
     color:#000;
@@ -62,103 +64,65 @@ p {
     font-family: "Montserrat";
 }
 
-.container-fluid {
+/* .container-fluid {
     padding: 3% 15% 4%;
-}
+} */
 
 
-/* Download Buttons */
 
-.download-button {
-    margin: 5% 3% 5% 0;
-}
+
+
 
 /* Title Image */
 
-.title-image {
-    width:60%;
-    transform: rotate(25deg);
+.title-img {
+    position: absolute;
+width: 450px;
+height: 450px;
+left: 55%;
+top: 10%;
    
 }
 
-/* Features */
+/* Chat Box */
 
-#features {
-    padding: 7% 15%;
-    background-color: #fff;
+.chat-text {
+    position: absolute;
+/* width: 608px;
+height: 216px;
+left: 742px;
+top: 913px; */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 2rem;
+line-height: 1.2;
+display: flex;
+align-items: center;
+
+color: #402A30;
 }
 
-.feature-box{
-    padding:4.5%;
-}
+.text {
+    position: absolute;
+width: 641px;
+height: 252px;
+left: 721px;
+top: 1153px;
 
-.icon {
-    color: #ef8172;
-    margin-bottom:1rem;
-}
-.icon:hover {
-    color:#ff4c68;
-}
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
 
-/* Testimonials */
+color: #402A30;
 
-#testimonials {
-    background-color: #ef8172;
-    color: #fff;
-}
-
-.testimonial-image {
-    width:14%;
-    border-radius: 100%;
-    margin:20px;
-}
-
-.testimonial-text {
-    font-size:2.5rem;
-    line-height:1.2;
-}
-
-/* Press */
-
-#press {
-    background-color: #ef8172;
-    padding-bottom: 3%;
-}
-
-.press-logo {
-    width:15%;
-    margin:20px 20px 15px;
-}
-
-/* Pricing */
-
-#pricing {
-    padding: 100px;
-}
-
-.pricing-column {
-    padding:3% 2%;
-}
-
-.price-text {
-    font-size:2.5rem;
-    line-height:1.5;
-}
-
-/* Footer 1 */
-
-#footer1 {
-    background-color: #FF616D;
-    color: #fff;
-}
-
-.footer-container {
-    padding: 7% 15%;
-}
-
-.footer-heading {
-    font-family: 'Montserrat', sans-serif;
-    font-size:3.2rem;
+text-shadow: 0px 0px 250px rgba(152, 216, 255, 0.7);
 }
 
 /* Footer 2 */
